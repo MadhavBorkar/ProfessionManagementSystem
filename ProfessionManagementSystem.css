@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  color: white;
+  padding: 0px 22px;
+}
+h5 {
+  font-size: 1.4rem;
+}
+.input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.name,
+.profession,
+.age_box {
+  display: flex;
+  flex-direction: column;
+  gap: 4;
+  border: none;
+}
+.name,
+.profession,
+.age_box,
+input {
+  width: 250px;
+  padding: 8px 12px;
+  background-color: black;
+  margin-top: 7px;
+}
+input {
+  border: 1px solid white;
+  color: white;
+}
+.btn {
+  margin-left: 12px;
+  width: 100px;
+  padding: 8px 12px;
+  margin-top: 20px;
+}
+.msg {
+  margin: 12px 12px;
+  color: green;
+  font-size: 1.2rem;
+}
+.added_emp {
+  margin: 12px 12px;
+  font-size: 1.2rem;
+}
+.list_container {
+  width: 500px;
+}
+.msg_error {
+  color: red;
+}
+.msg_success {
+  color: green;
+}
